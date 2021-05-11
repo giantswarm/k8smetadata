@@ -1,5 +1,12 @@
 package annotation
 
+// Metadata annotation stores an app metadata URL from the appCatalog's index.yaml.
+const AppMetadata = "application.giantswarm.io/metadata"
+
+// AppNamespace annotation is used by the chart status watcher to find the
+// app CR for chart CRs which are always in the giantswarm namespace.
+const AppNamespace = "chart-operator.giantswarm.io/app-namespace"
+
 // AppOperatorCordonReason is the name of the annotation that indicates
 // the reason of why operators should not apply any update to this app CR.
 const AppOperatorCordonReason = "cordon-reason"
