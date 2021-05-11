@@ -30,6 +30,12 @@ const AWSOperatorVersion = "aws-operator.giantswarm.io/version"
 // that there is an azure-operator release v4.1.0.
 const AzureOperatorVersion = "azure-operator.giantswarm.io/version"
 
+// ClusterAppsOperatorVersion is the version label put into provider independent CRs
+// to define which cluster-apps-operator version should reconcile the given CR.
+// Versions are defined as semver version without the "v" prefix, e.g. 2.3.0,
+// which means that there is a cluster-operator release v2.3.0.
+const ClusterAppsOperatorVersion = "cluster-apps-operator.giantswarm.io/version"
+
 // ClusterOperatorVersion is the version label put into provider independent CRs
 // to define which cluster-operator version should reconcile the given CR.
 // Versions are defined as semver version without the "v" prefix, e.g. 2.3.0,

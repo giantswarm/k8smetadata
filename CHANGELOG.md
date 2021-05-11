@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Add labels from https://github.com/giantswarm/cluster-operator/tree/v3.7.2-capi/pkg/label
+for use in cluster-apps-operator.
+
 ## [0.2.0] - 2021-05-11
 
 ### Added
