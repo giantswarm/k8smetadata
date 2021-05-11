@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Add annotations from https://github.com/giantswarm/app/tree/v4.12.0/pkg/annotation
+- Add labels from https://github.com/giantswarm/app/tree/v4.12.0/pkg/label
+
 ## [0.1.0] - 2021-04-23
 
 ### Added
