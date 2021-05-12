@@ -17,7 +17,7 @@ const AppOperatorCordonUntil = "app-operator.giantswarm.io/cordon-until"
 
 // AppOperatorLatestConfigMapVersion is the highest resource version among the configmaps
 // app CRs depends on.
-const AppOperatorLatestConfigMapVersion = "app-operator.giantswarm.io/giantswarm.io/latest-configmap-version"
+const AppOperatorLatestConfigMapVersion = "app-operator.giantswarm.io/latest-configmap-version"
 
 // AppOperatorLatestSecretVersion is the highest resource version among the secret
 // app CRs depends on.
