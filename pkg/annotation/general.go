@@ -15,3 +15,9 @@ const Notes = "giantswarm.io/notes"
 // The value is expected to be a URI, e. g.
 // "https://github.com/giantswarm/releases/tree/master/aws/v11.5.0".
 const ReleaseNotesURL = "giantswarm.io/release-notes"
+
+// Keep indicates that the CR shouldn't be removed by the operator in cases
+// such as when a resource is manually created rather than via automation.
+// The value should be set to `true` for it to be respected, all other values
+// are ignored.
+const Keep = "giantswarm.io/keep"
