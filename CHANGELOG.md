@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Add `ClusterAppsOperatorWatching` label as a replacement for `ClusterAppsOperatorVersion` when
+  only one version of the operator is running to indicate which clusters should be watched (in
+  cases where `cluster-operator` is running in the same cluster).
+
 ## [0.6.0] - 2021-11-16
 
 ### Added

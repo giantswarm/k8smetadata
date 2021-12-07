@@ -37,3 +37,7 @@ const AppOwners = "application.giantswarm.io/owners"
 // AppTeam annotation is defined in Chart.yaml and added to AppCatalogEntry CRs.
 // It is used when an app is owned by a single team.
 const AppTeam = "application.giantswarm.io/team"
+
+// ClusterAppsOperatorWatching is the label which should be added to Cluster CRs to indicate
+// that cluster-apps-operator should watch it.
+const ClusterAppsOperatorWatching = "cluster-apps-operator.giantswarm.io/watching"
