@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- Move `ClusterAppsOperatorWatching` to `label` package instead of `annotation` as intended.
+
 ## [0.7.0] - 2021-12-08
 
 ### Added
