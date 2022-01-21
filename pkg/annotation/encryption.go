@@ -5,7 +5,7 @@ package annotation
 // EncryptionRotationInProgress indicates that there is key rotation in progress. The annotation is stored on the encryption-provider-config secret.
 EncryptionRotationInProgress = "encryption.giantswarm.io/rotation-in-progress"
 
-// EncryptionForceRotation if annotation is set on the ecrnyption-provider-config secret, it will force the key rotation immediately regardless of the age of current encryption key. The annotation is stored on the encryption-provider-config secret.
+// EncryptionForceRotation if annotation is set on the encryption-provider-config secret, it will force the key rotation immediately regardless of the age of current encryption key. The annotation is stored on the encryption-provider-config secret.
 EncryptionForceRotation      = "encryption.giantswarm.io/force-rotation"
 
 // EncryptionEnableRotation enables the key rotation process of encryption key, if the annotation is not set, the encryption-provider-operator will never rotate keys. The annotation is stored on the encryption-provider-config secret.
