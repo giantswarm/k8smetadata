@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.9.1] - 2022-01-21
+
 ## [0.9.0] - 2022-01-21
 
 ### Added 
@@ -71,7 +73,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add annotations from https://github.com/giantswarm/apiextensions/tree/v3.22.0/pkg/annotation
 - Add labels from https://github.com/giantswarm/apiextensions/tree/v3.22.0/pkg/label
 
-[Unreleased]: https://github.com/giantswarm/k8smetadata/compare/v0.9.0...HEAD
+[Unreleased]: https://github.com/giantswarm/k8smetadata/compare/v0.9.1...HEAD
+[0.9.1]: https://github.com/giantswarm/k8smetadata/compare/v0.9.0...v0.9.1
 [0.9.0]: https://github.com/giantswarm/k8smetadata/compare/v0.8.0...v0.9.0
 [0.8.0]: https://github.com/giantswarm/k8smetadata/compare/v0.7.1...v0.8.0
 [0.7.1]: https://github.com/giantswarm/k8smetadata/compare/v0.7.0...v0.7.1
