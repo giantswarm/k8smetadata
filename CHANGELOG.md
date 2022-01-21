@@ -11,6 +11,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Add annotations for the encryption-provider-operator.
 
+## [0.8.0] - 2022-01-18
+
+### Added
+
+- Add `AppName` annotation for use by chart CR watcher in app-operator.
+
 ## [0.7.1] - 2021-12-08
 
 ### Fixed
@@ -63,7 +69,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add annotations from https://github.com/giantswarm/apiextensions/tree/v3.22.0/pkg/annotation
 - Add labels from https://github.com/giantswarm/apiextensions/tree/v3.22.0/pkg/label
 
-[Unreleased]: https://github.com/giantswarm/k8smetadata/compare/v0.7.1...HEAD
+[Unreleased]: https://github.com/giantswarm/k8smetadata/compare/v0.8.0...HEAD
+[0.8.0]: https://github.com/giantswarm/k8smetadata/compare/v0.7.1...v0.8.0
 [0.7.1]: https://github.com/giantswarm/k8smetadata/compare/v0.7.0...v0.7.1
 [0.7.0]: https://github.com/giantswarm/k8smetadata/compare/v0.6.0...v0.7.0
 [0.6.0]: https://github.com/giantswarm/k8smetadata/compare/v0.5.0...v0.6.0
