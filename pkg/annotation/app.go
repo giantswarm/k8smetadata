@@ -31,6 +31,10 @@ const AppOperatorLatestSecretVersion = "app-operator.giantswarm.io/latest-secret
 // reconciling the resource.
 const AppOperatorPaused = "app-operator.giantswarm.io/paused"
 
+// AppOperatorTriggerReconciliation is used by the app operator to annotate the App CR
+// to trigger its reconciliation.
+const AppOperatorTriggerReconciliation = "app-operator.giantswarm.io/trigger-reconciliation"
+
 // AppOperatorWebhookURL is the URL that chart-operator reports chart updates.
 const AppOperatorWebhookURL = "app-operator.giantswarm.io/webhook-url"
 
