@@ -33,6 +33,15 @@ const AWSCNIWarmIPTarget = "alpha.cni.aws.giantswarm.io/warm-ip-target"
 
 // support:
 //   - crd: awsclusters.infrastructure.giantswarm.io
+//     apiversion: v1alpha3
+//     release: Since 17.1.0
+// documentation:
+//   This annotation enables alpha feature IAM Roles for Service Accounts.
+//   See [IAM Roles for Service Accounts](https://docs.giantswarm.io/guides/iam-roles-for-service-accounts/)
+const AWSIRSA = "alpha.aws.giantswarm.io/iam-roles-for-service-accounts"
+
+// support:
+//   - crd: awsclusters.infrastructure.giantswarm.io
 //     apiversion: v1alpha2
 //     release: Since 12.7.0
 //   - crd: awsmachinedeployments.infrastructure.giantswarm.io
