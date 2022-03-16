@@ -32,6 +32,22 @@ const AWSCNIPrefixDelegation = "alpha.cni.aws.giantswarm.io/prefix-delegation"
 const AWSCNIWarmIPTarget = "alpha.cni.aws.giantswarm.io/warm-ip-target"
 
 // support:
+//   - crd: awscontrolplanes.infrastructure.giantswarm.io
+//     apiversion: v1alpha3
+//     release: Since 18.0.0
+// documentation:
+//   This annotation enables alpha feature EBS Volume Iops.
+const AWSEBSVolumeIops = "alpha.aws.giantswarm.io/ebs-volume-iops"
+
+// support:
+//   - crd: awscontrolplanes.infrastructure.giantswarm.io
+//     apiversion: v1alpha3
+//     release: Since 18.0.0
+// documentation:
+//   This annotation enables alpha feature EBS Volume Throughput.
+const AWSEBSVolumeThroughput = "alpha.aws.giantswarm.io/ebs-volume-throughput"
+
+// support:
 //   - crd: awsclusters.infrastructure.giantswarm.io
 //     apiversion: v1alpha3
 //     release: Since 17.1.0
