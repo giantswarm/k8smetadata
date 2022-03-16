@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Add `alpha.aws.giantswarm.io/ebs-volume-throughput` annotation.
+- Add `alpha.aws.giantswarm.io/ebs-volume-iops` annotation.
+
 ## [0.9.4] - 2022-03-04
 
 ### Added
