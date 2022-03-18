@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Add `application.giantswarm.io/in-cluster-app` annotation.
+
 ## [0.10.0] - 2022-03-16
 
 ### Added

@@ -45,3 +45,8 @@ const AppOwners = "application.giantswarm.io/owners"
 // AppTeam annotation is defined in Chart.yaml and added to AppCatalogEntry CRs.
 // It is used when an app is owned by a single team.
 const AppTeam = "application.giantswarm.io/team"
+
+// InClusterApp annotation is defined in Chart.yaml and added to AppCatalogEntry CRs.
+// It is used to determine whether an app should be installed in the local cluster
+// instead of a remote cluster.
+const InClusterApp = "application.giantswarm.io/in-cluster-app"
