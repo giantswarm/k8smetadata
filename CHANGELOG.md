@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.10.1] - 2022-03-21
+
 ### Fixed
 
 - Support `alpha.aws.giantswarm.io/ebs-volume-throughput` in AWS v17.2.0.
@@ -103,7 +105,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add annotations from https://github.com/giantswarm/apiextensions/tree/v3.22.0/pkg/annotation
 - Add labels from https://github.com/giantswarm/apiextensions/tree/v3.22.0/pkg/label
 
-[Unreleased]: https://github.com/giantswarm/k8smetadata/compare/v0.10.0...HEAD
+[Unreleased]: https://github.com/giantswarm/k8smetadata/compare/v0.10.1...HEAD
+[0.10.1]: https://github.com/giantswarm/k8smetadata/compare/v0.10.0...v0.10.1
 [0.10.0]: https://github.com/giantswarm/k8smetadata/compare/v0.9.4...v0.10.0
 [0.9.4]: https://github.com/giantswarm/k8smetadata/compare/v0.9.3...v0.9.4
 [0.9.3]: https://github.com/giantswarm/k8smetadata/compare/v0.9.2...v0.9.3
