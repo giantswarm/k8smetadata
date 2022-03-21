@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- Support `alpha.aws.giantswarm.io/ebs-volume-throughput` in AWS v17.2.0.
+- Support `alpha.aws.giantswarm.io/ebs-volume-iops` in AWS v17.2.0.
+
 ## [0.10.0] - 2022-03-16
 
 ### Added
