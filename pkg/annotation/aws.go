@@ -109,3 +109,13 @@ const AWSMetadataV2 = "alpha.aws.giantswarm.io/metadata-v2"
 //   This annotation is used for configuring the subnet size of AWSCluster or AWSMachineDeployment.
 //   The value is a number that will represent the subnet mask used when creating the subnet. This value must be smaller than 28 due to AWS restrictions.
 const AWSSubnetSize = "alpha.aws.giantswarm.io/aws-subnet-size"
+
+// support:
+//   - crd: awsmachinedeployments.infrastructure.giantswarm.io
+//     apiversion: v1alpha3
+//     release: Since 17.3.2
+// documentation:
+//   This annotation is used to support internal load balancers.
+//   It will set a tag on the subnet of AWSMachineDeployment.
+//   See [Subnet Discovery](https://github.com/kubernetes-sigs/aws-load-balancer-controller/blob/main/docs/deploy/subnet_discovery.md#private-subnets)
+const AWSInternalELB = "alpha.aws.giantswarm.io/internal-elb"
