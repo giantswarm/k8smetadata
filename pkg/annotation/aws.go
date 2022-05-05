@@ -116,6 +116,6 @@ const AWSSubnetSize = "alpha.aws.giantswarm.io/aws-subnet-size"
 //     release: Since 17.3.2
 // documentation:
 //   This annotation is used to support internal load balancers.
-// 	 It will set a tag on the subnet of AWSMachineDeployment.
+//   It will set a tag on the subnet of AWSMachineDeployment.
 //   See [Subnet Discovery](https://github.com/kubernetes-sigs/aws-load-balancer-controller/blob/main/docs/deploy/subnet_discovery.md#private-subnets)
 const AWSInternalELB = "alpha.aws.giantswarm.io/internal-elb"
