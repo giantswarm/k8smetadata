@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.12.0] - 2022-08-02
+
 ### Added
 
 - Add `cilium.giantswarm.io/pod-cidr` annotation.
@@ -121,7 +123,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add annotations from https://github.com/giantswarm/apiextensions/tree/v3.22.0/pkg/annotation
 - Add labels from https://github.com/giantswarm/apiextensions/tree/v3.22.0/pkg/label
 
-[Unreleased]: https://github.com/giantswarm/k8smetadata/compare/v0.11.1...HEAD
+[Unreleased]: https://github.com/giantswarm/k8smetadata/compare/v0.12.0...HEAD
+[0.12.0]: https://github.com/giantswarm/k8smetadata/compare/v0.11.1...v0.12.0
 [0.11.1]: https://github.com/giantswarm/k8smetadata/compare/v0.11.0...v0.11.1
 [0.11.0]: https://github.com/giantswarm/k8smetadata/compare/v0.10.1...v0.11.0
 [0.10.1]: https://github.com/giantswarm/k8smetadata/compare/v0.10.0...v0.10.1
