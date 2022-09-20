@@ -122,13 +122,13 @@ const AWSInternalELB = "alpha.aws.giantswarm.io/internal-elb"
 
 // support:
 //   - crd: awsclusters.infrastructure.giantswarm.io
-//     apiversion: v1alpha3
+//     apiversion: v1alpha2
 //     release: Since 16.1.1
 //   - crd: awscontrolplanes.infrastructure.giantswarm.io
-//     apiversion: v1alpha3
+//     apiversion: v1alpha2
 //     release: Since 16.1.1
 //   - crd: awsmachinedeployments.infrastructure.giantswarm.io
-//     apiversion: v1alpha3
+//     apiversion: v1alpha2
 //     release: Since 16.1.1
 // documentation:
 //   This annotation is used to start a EC2 instance refresh in a Auto Scaling group.
@@ -137,13 +137,13 @@ const AWSInstanceRefresh = "alpha.aws.giantswarm.io/instance-refresh"
 
 // support:
 //   - crd: awsclusters.infrastructure.giantswarm.io
-//     apiversion: v1alpha3
+//     apiversion: v1alpha2
 //     release: Since 16.1.1
 //   - crd: awscontrolplanes.infrastructure.giantswarm.io
-//     apiversion: v1alpha3
+//     apiversion: v1alpha2
 //     release: Since 16.1.1
 //   - crd: awsmachinedeployments.infrastructure.giantswarm.io
-//     apiversion: v1alpha3
+//     apiversion: v1alpha2
 //     release: Since 16.1.1
 // documentation:
 //   This annotation is used to cancel a EC2 instance refresh in a Auto Scaling group.
@@ -152,13 +152,13 @@ const AWSCancelInstanceRefresh = "alpha.aws.giantswarm.io/cancel-instance-refres
 
 // support:
 //   - crd: awsclusters.infrastructure.giantswarm.io
-//     apiversion: v1alpha3
+//     apiversion: v1alpha2
 //     release: Since 16.1.1
 //   - crd: awscontrolplanes.infrastructure.giantswarm.io
-//     apiversion: v1alpha3
+//     apiversion: v1alpha2
 //     release: Since 16.1.1
 //   - crd: awsmachinedeployments.infrastructure.giantswarm.io
-//     apiversion: v1alpha3
+//     apiversion: v1alpha2
 //     release: Since 16.1.1
 // documentation:
 //   This annotation is used to set the amount of capacity which must remain healthy inside the Auto Scaling group.
