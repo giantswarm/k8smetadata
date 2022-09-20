@@ -163,4 +163,4 @@ const AWSCancelInstanceRefresh = "alpha.aws.giantswarm.io/cancel-instance-refres
 // documentation:
 //   This annotation is used to set the amount of capacity which must remain healthy inside the Auto Scaling group.
 //   See [aws-rolling-node-operator](https://github.com/giantswarm/aws-rolling-node-operator#operator-for-rolling-nodes)
-const AWSInstanceRefreshMinHealhtyPercentage = "alpha.giantswarm.io/instance-refresh-min-healhty-percentage"
+const AWSInstanceRefreshMinHealthyPercentage = "alpha.giantswarm.io/instance-refresh-min-healthy-percentage"
