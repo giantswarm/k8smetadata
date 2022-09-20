@@ -119,3 +119,48 @@ const AWSSubnetSize = "alpha.aws.giantswarm.io/aws-subnet-size"
 //   It will set a tag on the subnet of AWSMachineDeployment.
 //   See [Subnet Discovery](https://github.com/kubernetes-sigs/aws-load-balancer-controller/blob/main/docs/deploy/subnet_discovery.md#private-subnets)
 const AWSInternalELB = "alpha.aws.giantswarm.io/internal-elb"
+
+// support:
+//   - crd: awsclusters.infrastructure.giantswarm.io
+//     apiversion: v1alpha3
+//     release: Since 16.1.1
+//   - crd: awscontrolplanes.infrastructure.giantswarm.io
+//     apiversion: v1alpha3
+//     release: Since 16.1.1
+//   - crd: awsmachinedeployments.infrastructure.giantswarm.io
+//     apiversion: v1alpha3
+//     release: Since 16.1.1
+// documentation:
+//   This annotation is used to start a EC2 instance refresh in a Auto Scaling group.
+//   See [aws-rolling-node-operator](https://github.com/giantswarm/aws-rolling-node-operator#operator-for-rolling-nodes)
+const AWSInstanceRefresh = "alpha.aws.giantswarm.io/internal-elb"
+
+// support:
+//   - crd: awsclusters.infrastructure.giantswarm.io
+//     apiversion: v1alpha3
+//     release: Since 16.1.1
+//   - crd: awscontrolplanes.infrastructure.giantswarm.io
+//     apiversion: v1alpha3
+//     release: Since 16.1.1
+//   - crd: awsmachinedeployments.infrastructure.giantswarm.io
+//     apiversion: v1alpha3
+//     release: Since 16.1.1
+// documentation:
+//   This annotation is used to cancel a EC2 instance refresh in a Auto Scaling group.
+//   See [aws-rolling-node-operator](https://github.com/giantswarm/aws-rolling-node-operator#operator-for-rolling-nodes)
+const AWSCancelInstanceRefresh = "alpha.aws.giantswarm.io/cancel-instance-refresh"
+
+// support:
+//   - crd: awsclusters.infrastructure.giantswarm.io
+//     apiversion: v1alpha3
+//     release: Since 16.1.1
+//   - crd: awscontrolplanes.infrastructure.giantswarm.io
+//     apiversion: v1alpha3
+//     release: Since 16.1.1
+//   - crd: awsmachinedeployments.infrastructure.giantswarm.io
+//     apiversion: v1alpha3
+//     release: Since 16.1.1
+// documentation:
+//   This annotation is used to set the amount of capacity which must remain healthy inside the Auto Scaling group.
+//   See [aws-rolling-node-operator](https://github.com/giantswarm/aws-rolling-node-operator#operator-for-rolling-nodes)
+const AWSInstanceRefreshMinHealhtyPercentage = "alpha.giantswarm.io/instance-refresh-min-healhty-percentage"
