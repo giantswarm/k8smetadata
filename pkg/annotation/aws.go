@@ -133,7 +133,7 @@ const AWSInternalELB = "alpha.aws.giantswarm.io/internal-elb"
 // documentation:
 //   This annotation is used to start a EC2 instance refresh in a Auto Scaling group.
 //   See [aws-rolling-node-operator](https://github.com/giantswarm/aws-rolling-node-operator#operator-for-rolling-nodes)
-const AWSInstanceRefresh = "alpha.aws.giantswarm.io/internal-elb"
+const AWSInstanceRefresh = "alpha.aws.giantswarm.io/instance-refresh"
 
 // support:
 //   - crd: awsclusters.infrastructure.giantswarm.io
