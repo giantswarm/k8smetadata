@@ -6,6 +6,12 @@ package annotation
 //   - crd: awsclusters.infrastructure.giantswarm.io
 //     apiversion: v1alpha3
 //     release: Since 18.0.0
+//
 // documentation:
-//   This annotation allows specifying a CIDR to be used by cilium during cluster upgrades from v17 to v18.
+//
+//	This annotation allows specifying a CIDR to be used by cilium during cluster upgrades from v17 to v18.
 const CiliumPodCidr = "cilium.giantswarm.io/pod-cidr"
+
+// Not documented as it's not meant for customers.
+// This annotation allows disabling Cilium's kube proxy implementation.
+const CiliumForceDisableKubeProxyAnnotation = "cilium.giantswarm.io/force-disable-cilium-kube-proxy"
