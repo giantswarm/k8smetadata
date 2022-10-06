@@ -1,6 +1,6 @@
 # DO NOT EDIT. Generated with:
 #
-#    devctl@5.3.0
+#    devctl@5.10.0
 #
 version: 2
 updates:
@@ -10,6 +10,8 @@ updates:
       interval: weekly
       time: "04:00"
     open-pull-requests-limit: 10
+    reviewers:
+      - giantswarm/team-hydra
     ignore:
       - dependency-name: zricethezav/gitleaks-action
       - dependency-name: actions/setup-go
