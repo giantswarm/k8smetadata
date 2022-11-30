@@ -165,6 +165,23 @@ const AWSCancelInstanceRefresh = "alpha.aws.giantswarm.io/cancel-instance-refres
 //   See [aws-rolling-node-operator](https://github.com/giantswarm/aws-rolling-node-operator#operator-for-rolling-nodes)
 const AWSInstanceRefreshMinHealthyPercentage = "alpha.giantswarm.io/instance-refresh-min-healthy-percentage"
 
+// support:
+//   - crd: awsclusters.infrastructure.giantswarm.io
+//     apiversion: v1alpha2
+//     release: Since 16.1.1
+//   - crd: awscontrolplanes.infrastructure.giantswarm.io
+//     apiversion: v1alpha2
+//     release: Since 16.1.1
+//   - crd: awsmachinedeployments.infrastructure.giantswarm.io
+//     apiversion: v1alpha2
+//     release: Since 16.1.1
+//
+// documentation:
+//
+//	This annotation is used to set the instance warmup which is the time period from when a new instance's state changes to InService to when it can receive traffic.
+//	See [aws-rolling-node-operator](https://github.com/giantswarm/aws-rolling-node-operator#operator-for-rolling-nodes)
+const AWSInstanceWarmupSeconds = "alpha.giantswarm.io/instance-warmup-seconds"
+
 // AWSVPCMode is set on AWSCluster. Possible values are AWSVPCModePublic and AWSVPCModePrivate
 const AWSVPCMode = "aws.giantswarm.io/vpc-mode"
 
