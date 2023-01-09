@@ -21,3 +21,19 @@ const AWSDNSAdditionalVPC = "aws.giantswarm.io/dns-assign-additional-vpc"
 
 // DNSModePrivate is possible AWSDNSMode annotation value.
 const DNSModePrivate = "private"
+
+// NetworkTopologyModeAnnotation is the annotation indicating the network topology mode a cluster uses
+// Valid values are "GiantSwarmManaged", "CustomerManaged" and "None"
+const NetworkTopologyModeAnnotation = "network-topology.giantswarm.io/mode"
+
+const NetworkTopologyModeGiantSwarmManaged = "GiantSwarmManaged"
+const NetworkTopologyModeUserManaged = "UserManaged"
+const NetworkTopologyModeNone = "None"
+
+// NetworkTopologyTransitGatewayIDAnnotation contains the ID of the Transit Gateway used by the cluster.
+// This is either the user-provided TGW or the one created by this operator.
+const NetworkTopologyTransitGatewayIDAnnotation = "network-topology.giantswarm.io/transit-gateway"
+
+// NetworkTopologyPrefixListIDAnnotation contains the ID of the Prefix List containing the CIDRs of all clusters.
+// This is either the user-provided PL ID or the one created by this operator.
+const NetworkTopologyPrefixListIDAnnotation = "network-topology.giantswarm.io/prefix-list"

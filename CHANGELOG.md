@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Add `aws.giantswarm.io/dns-mode` annotation.
 - Add `aws.giantswarm.io/dns-assign-additional-vpc` annotation.
+- Add network topology annotations.
 
 ## [0.16.1] - 2022-12-02
 
