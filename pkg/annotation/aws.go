@@ -181,14 +181,3 @@ const AWSInstanceRefreshMinHealthyPercentage = "alpha.aws.giantswarm.io/instance
 //	This annotation is used to set the instance warmup which is the time period from when a new instance's state changes to InService to when it can receive traffic.
 //	See [aws-rolling-node-operator](https://github.com/giantswarm/aws-rolling-node-operator#operator-for-rolling-nodes)
 const AWSInstanceWarmupSeconds = "alpha.aws.giantswarm.io/instance-warmup-seconds"
-
-// AWSVPCMode is set on AWSCluster. Possible values are AWSVPCModePublic and AWSVPCModePrivate
-const AWSVPCMode = "aws.giantswarm.io/vpc-mode"
-
-// AWSVPCModePublic is one possible AWSVPCMode annotation value. When it is set,
-// CAPA controllers will create public-facing VPC for AWS cluster.
-const AWSVPCModePublic = "public"
-
-// AWSVPCModePrivate is one possible AWSVPCMode annotation value. When it is set,
-// aws-vpc-operator will create private VPC for AWS cluster.
-const AWSVPCModePrivate = "private"
