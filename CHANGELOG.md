@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.17.0] - 2023-01-09
+
 ### Added
 
 - Add `aws.giantswarm.io/dns-mode` annotation.
@@ -163,7 +165,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add annotations from https://github.com/giantswarm/apiextensions/tree/v3.22.0/pkg/annotation
 - Add labels from https://github.com/giantswarm/apiextensions/tree/v3.22.0/pkg/label
 
-[Unreleased]: https://github.com/giantswarm/k8smetadata/compare/v0.16.1...HEAD
+[Unreleased]: https://github.com/giantswarm/k8smetadata/compare/v0.17.0...HEAD
+[0.17.0]: https://github.com/giantswarm/k8smetadata/compare/v0.16.1...v0.17.0
 [0.16.1]: https://github.com/giantswarm/k8smetadata/compare/v0.16.0...v0.16.1
 [0.16.0]: https://github.com/giantswarm/k8smetadata/compare/v0.15.0...v0.16.0
 [0.15.0]: https://github.com/giantswarm/k8smetadata/compare/v0.14.0...v0.15.0
