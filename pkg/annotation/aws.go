@@ -192,6 +192,5 @@ const AWSInstanceWarmupSeconds = "alpha.aws.giantswarm.io/instance-warmup-second
 //
 // documentation:
 //
-//	This annotation is used to set the instance warmup which is the time period from when a new instance's state changes to InService to when it can receive traffic.
-//	See [aws-rolling-node-operator](https://github.com/giantswarm/aws-rolling-node-operator#operator-for-rolling-nodes)
+//	This annotation is used to set the size of the logging volume in the nodes. The default is 100 (Gb).
 const AWSLoggingVolumeSize = "alpha.aws.giantswarm.io/logging-volume-size"
