@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Add `alpha.aws.giantswarm.io/logging-volume-size` annotation.
+- Add `alpha.aws.giantswarm.io/containerd-volume-size` annotation.
+
 ## [0.17.0] - 2023-01-09
 
 ### Added

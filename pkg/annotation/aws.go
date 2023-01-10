@@ -181,3 +181,29 @@ const AWSInstanceRefreshMinHealthyPercentage = "alpha.aws.giantswarm.io/instance
 //	This annotation is used to set the instance warmup which is the time period from when a new instance's state changes to InService to when it can receive traffic.
 //	See [aws-rolling-node-operator](https://github.com/giantswarm/aws-rolling-node-operator#operator-for-rolling-nodes)
 const AWSInstanceWarmupSeconds = "alpha.aws.giantswarm.io/instance-warmup-seconds"
+
+// support:
+//   - crd: awscontrolplanes.infrastructure.giantswarm.io
+//     apiversion: v1alpha2
+//     release: Since 19.0.0
+//   - crd: awsmachinedeployments.infrastructure.giantswarm.io
+//     apiversion: v1alpha2
+//     release: Since 19.0.0
+//
+// documentation:
+//
+//	This annotation is used to set the size of the logging volume in the nodes. The default is 100 (Gb).
+const AWSLoggingVolumeSize = "alpha.aws.giantswarm.io/logging-volume-size"
+
+// support:
+//   - crd: awscontrolplanes.infrastructure.giantswarm.io
+//     apiversion: v1alpha2
+//     release: Since 19.0.0
+//   - crd: awsmachinedeployments.infrastructure.giantswarm.io
+//     apiversion: v1alpha2
+//     release: Since 19.0.0
+//
+// documentation:
+//
+//	This annotation is used to set the size of the docker volume in the nodes. The default is value will be dockerVolumeSizeGB set in the CR.
+const AWSContainerdVolumeSize = "alpha.aws.giantswarm.io/containerd-volume-size"
