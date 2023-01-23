@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Add `aws.giantswarm.io/resolver-rules-owner-account` annotation.
+
 ## [0.18.0] - 2023-01-13
 
 ### Added

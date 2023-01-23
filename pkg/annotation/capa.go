@@ -37,3 +37,7 @@ const NetworkTopologyTransitGatewayIDAnnotation = "network-topology.giantswarm.i
 // NetworkTopologyPrefixListIDAnnotation contains the ID of the Prefix List containing the CIDRs of all clusters.
 // This is either the user-provided PL ID or the one created by this operator.
 const NetworkTopologyPrefixListIDAnnotation = "network-topology.giantswarm.io/prefix-list"
+
+// ResolverRulesOwnerAWSAccountId contains the AWS Account ID that owns the resolver rules that need to be associated
+// with the workload cluster VPC.
+const ResolverRulesOwnerAWSAccountId = "aws.giantswarm.io/resolver-rules-owner-account"
