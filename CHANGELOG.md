@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.20.0] - 2023-02-09
+
 ### Added
 
 - Add `aws.giantswarm.io/vpc-endpoint-mode` annotation and its values `UserManaged`,`GiantswarmManaged`
@@ -182,7 +184,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add annotations from https://github.com/giantswarm/apiextensions/tree/v3.22.0/pkg/annotation
 - Add labels from https://github.com/giantswarm/apiextensions/tree/v3.22.0/pkg/label
 
-[Unreleased]: https://github.com/giantswarm/k8smetadata/compare/v0.19.0...HEAD
+[Unreleased]: https://github.com/giantswarm/k8smetadata/compare/v0.20.0...HEAD
+[0.20.0]: https://github.com/giantswarm/k8smetadata/compare/v0.19.0...v0.20.0
 [0.19.0]: https://github.com/giantswarm/k8smetadata/compare/v0.18.0...v0.19.0
 [0.18.0]: https://github.com/giantswarm/k8smetadata/compare/v0.17.0...v0.18.0
 [0.17.0]: https://github.com/giantswarm/k8smetadata/compare/v0.16.1...v0.17.0
