@@ -41,3 +41,9 @@ const NetworkTopologyPrefixListIDAnnotation = "network-topology.giantswarm.io/pr
 // ResolverRulesOwnerAWSAccountId contains the AWS Account ID that owns the resolver rules that need to be associated
 // with the workload cluster VPC.
 const ResolverRulesOwnerAWSAccountId = "aws.giantswarm.io/resolver-rules-owner-account"
+
+// VPCEnpointMode is set on AWSCluster. Possible values are AWSVPCEnpointModeUserManaged and AWSVPCEndpointModeGiantSwarmManaged
+const VPCEndpointModeAnnotation = "aws.giantswarm.io/vpc-endpoint-mode"
+
+const VPCEndpointModeGiantSwarmManaged = "GiantSwarmManaged"
+const VPCEndpointModeUserManaged = "UserManaged"
