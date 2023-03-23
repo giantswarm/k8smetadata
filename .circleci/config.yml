@@ -1,0 +1,15 @@
+version: 2.1
+orbs:
+  architect: giantswarm/architect@4.28.1
+
+workflows:
+  package-and-push-chart-on-tag:
+    jobs:
+      - architect/go-build:
+          context: architect
+          name: go-build
+          binary: k8smetadata
+          resource_class: xlarge
+          filters:
+            tags:
+              only: /^v.*/
