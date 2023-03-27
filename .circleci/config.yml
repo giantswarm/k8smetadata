@@ -5,11 +5,8 @@ orbs:
 workflows:
   package-and-push-chart-on-tag:
     jobs:
-      - architect/go-build:
-          context: architect
-          name: go-build
-          binary: k8smetadata
-          resource_class: xlarge
+      - architect/go-test:
+          name: go-test
           filters:
             tags:
               only: /^v.*/
