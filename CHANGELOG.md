@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Add circleci builds.
+- Add `cilium.giantswarm.io/ipam-mode` annotation and its values `kubernetes` and `eni`.
 
 ## [0.20.0] - 2023-02-09
 
