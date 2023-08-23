@@ -7,5 +7,5 @@ package annotation
 //
 // documentation:
 //
-//	This annotation is used for configuring flatcar alpha channel release version.
-const FlatcarAlphaReleaseVersion = "alpha.flatcar.giantswarm.io/release-version"
+//	This annotation is used for selecting a specific flatcar release version for machine deployments.
+const FlatcarReleaseVersion = "alpha.flatcar.giantswarm.io/release-version"
