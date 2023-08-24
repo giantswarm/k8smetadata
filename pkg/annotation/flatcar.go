@@ -8,4 +8,4 @@ package annotation
 // documentation:
 //
 //	This annotation is used for selecting a specific flatcar release version for machine deployments.
-const FlatcarReleaseVersion = "alpha.flatcar.giantswarm.io/release-version"
+const FlatcarReleaseVersion = "alpha.giantswarm.io/flatcar-release-version"
