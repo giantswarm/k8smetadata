@@ -8,3 +8,7 @@ const ServicePriority = "giantswarm.io/service-priority"
 const ServicePriorityHighest = "highest"
 const ServicePriorityMedium = "medium"
 const ServicePriorityLowest = "lowest"
+
+// PreventDeletion indicates that a resource cannot be deleted unless the
+// label is removed first.
+const PreventDeletion = "giantswarm.io/prevent-deletion"
