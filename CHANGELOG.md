@@ -7,9 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Add deletion prevention label
+
 ## [0.22.0] - 2023-08-24
 
-### Added 
+### Added
 
 - Add `alpha.giantswarm.io/flatcar-release-version` annotation to support flatcar alpha channel releases.
 
