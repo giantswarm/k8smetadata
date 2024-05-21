@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Add `app-operator.giantswarm.io/flux-backend` label for Cluster CR.
+
 ## [0.24.0] - 2024-02-27
 
 ### Added
