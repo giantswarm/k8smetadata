@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Add `kustomize.toolkit.fluxcd.io/name` label.
+- Add `kustomize.toolkit.fluxcd.io/reconcile` annotation.
+
 ## [0.24.0] - 2024-02-27
 
 ### Added
