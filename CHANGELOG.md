@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.25.0] - 2024-06-03
+
 ### Added
 
 - Add `kustomize.toolkit.fluxcd.io/name` label.
@@ -214,7 +216,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add annotations from https://github.com/giantswarm/apiextensions/tree/v3.22.0/pkg/annotation
 - Add labels from https://github.com/giantswarm/apiextensions/tree/v3.22.0/pkg/label
 
-[Unreleased]: https://github.com/giantswarm/k8smetadata/compare/v0.24.0...HEAD
+[Unreleased]: https://github.com/giantswarm/k8smetadata/compare/v0.25.0...HEAD
+[0.25.0]: https://github.com/giantswarm/k8smetadata/compare/v0.24.0...v0.25.0
 [0.24.0]: https://github.com/giantswarm/k8smetadata/compare/v0.23.0...v0.24.0
 [0.23.0]: https://github.com/giantswarm/k8smetadata/compare/v0.23.0...v0.23.0
 [0.22.0]: https://github.com/giantswarm/k8smetadata/compare/v0.21.0...v0.22.0
